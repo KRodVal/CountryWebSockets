@@ -1,0 +1,50 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#countriesList {
+  margin: 1em;
+  border: 2px solid cornflowerblue;
+  border-radius: 1em;
+  width: auto;
+}
+
+#countriesList>*{
+  margin: 1em 1em;
+}
+
+#countriesList h2 {
+  color: brown;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#countriesList h3 {
+  color: brown;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.addCountryForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.field {
+  padding: 1em;
+  margin: 1em;
+  border: 1px solid cornflowerblue;
+  border-radius: .5em;
+  width: 50em;
+  text-align: center;
+}
+
+#addButton {
+  margin-top: 3em;
+  padding: .5em;
+  color: cornflowerblue;
+  width: 20em;
+  border: 1px solid cornflowerblue;
+  border-radius: .3em;
+  background: none;
+}
